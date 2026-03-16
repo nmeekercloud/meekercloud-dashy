@@ -2,68 +2,38 @@
 # Page meta info, like heading, footer text and nav links
 pageInfo:
   title: dashy.meekercloud.xyz
-  description: Quick Links
+  description: 
   navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
   - title: Documentation
     path: https://dashy.to/docs
 
 # Optional app settings and configuration
 appConfig:
+  auth:
+    enableGuestAccess: true
+    users:
   theme: Glass-2
+  layoutMode: vertical
+  itemSize: large
 
 # Main content - An array of sections, each containing an array of items
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
 - name: My Projects
   icon: favicon
   items:
   - title: My Website
-    description: My Website
     icon: fas fa-globe
     url: https://meekercloud.xzy
     target: newtab
   - title: nmeekercloud GitHub
-    description: My Github
-    icon: fab fa-github
+    icon: favicon
     url: https://github.com/nmeekercloud
     target: newtab
   - title: File Repo
-    description: Personal File Repo
     icon: fas fa-folder-open
     url: https://meekercloud.xzy
     target: newtab
   - title: Credly Cert Profile
-    description: My Professional Certifications
     icon: fas fa-certificate
     url: https://meekercloud.xzy
     target: newtab
@@ -71,123 +41,98 @@ sections:
   icon: favicon
   items:
   - title: 365 Admin
-    description: 365 Admin Portal
     icon: fab fa-microsoft
-    url: https://admin.mmicrosoft.com
+    url: https://admin.microsoft.com
     target: newtab
   - title: Exchange Admin
-    description: Exchange Online Admin Portal
     url: https://admin.exchange.microsoft.com
     icon: fas fa-envelope
+    target: newtab
   - title: Exchange Email Quarantine
-    description: Exchange Online Email Quarantine
     url: https://security.microsoft.com/quarantine
     icon: fas fa-shield-alt
+    target: newtab
   - title: Entra Portal
-    description: Microsoft Entra Admin Portal
     icon: fas fa-users
     url: https://entra.microsoft.com
+    target: newtab
   - title: Azure Portal
-    description: Azure Portal
     url: https://porta.azure.com
-    icon: fab fa-microsoft
+    icon: fas fa-cloud
+    target: newtab
   - title: Microsoft Purview
-    description: Microsoft PurView Data Discovery and Classification
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
+    url: https://purview.microsoft.com
     icon: fas fa-search
+    target: newtab
   - title: Microsoft Defender/Security
-    description: Get help with Dashy, raise a bug, or get in contact
     url: https://security.microsoft.com
     icon: fas fa-shield-virus
-  - title: Microsoft Defender/Security
-    description: Device Protection and Email Policies/Rules
-    url: https://security.microsoft.com
-    icon: favicon
+    target: newtab
   - title: Microsoft Intune
-    description: Intune MDM
     url: https://intune.microsoft.com
     icon: fas fa-mobile-alt
+    target: newtab
   - title: Microsoft Power Platform
-    description: Build apps, automate workflows, and analyze data
     url: https://admin.powerplatform.microsoft.com
-    icon: fas fa-plug
+    icon: fas fa-cogs
+    target: newtab
   - title: Microsoft SSPR
-    description: Microsoft Self-Service Password Reset Portal
     url: https://passwordreset.microsoftonline.com/
     icon: fas fa-key
+    target: newtab
 - name: Tools
   icon: favicon
   items:
   - title: MXToolBox
-    description: For Domain Configuration Checks
-    icon: fas fa-tools
+    icon: favicon
     url: https://mxtoolbox.com/
     target: newtab
   - title: Redsift DMARC, SPF, & DKIM
-    description: Redsift DMARC, SPF, & DKIM Email Check Tool
     url: https://redsift.com/tools/investigate
-    icon: fas fa-envelope-open
+    icon: favicon
+    target: newtab
   - title: Token2 TOTP Toolset
-    description: For creating virtual OTP Hardware Tokens
-    icon: fas fa-qrcode
     url: https://www.token2.ch/site/page/totp-toolset
+    icon: favicon
+    target: newtab
   - title: Token2 TOTP QR Code Decoder
-    description: To decode QR Code to retrieve OTP Secret
-    icon: fas fa-qrcode
+    icon: favicon
     url: https://www.token2.com/site/page/totp-qr-image-decoder
+    target: newtab
   - title: Amazon Poly Voice-To-Text
-    description: Amazon Poly Voice-To-Text
-    icon: fab fa-aws
+    icon: favicon
     url: https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fus-east-1.console.aws.amazon.com%2Fpolly%2Fhome%2FSynthesizeSpeech%3Fca-oauth-flow-id%3D0f0c%26hashArgs%3D%2523%26isauthcode%3Dtrue%26oauthStart%3D1773685119921%26region%3Dus-east-1%26state%3DhashArgsFromTB_us-east-1_813d6ee1a1866fba&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fpolly-tb&forceMobileApp=0&code_challenge=0FsuBbh0rBieKyyh-Ei4tMxKTRBkJRXDmqZsyW3il6g&code_challenge_method=SHA-256
-  - title: Token2 TOTP QR Code Decoder
-    description: G711 .wav File Converter
+    target: newtab
+  - title: G711 .WAV Converter
     icon: fas fa-file-audio
     url: https://g711.org/
   - title: Scribe
-    description: Scribe Documentation
-    icon: fas fa-pen
+    icon: favicon
     url: https://scribehow.com
   - title: Google App Password Creation
-    description: Direct URL to Create a Google App Password
     icon: favicon
     url: https://myaccount.google.com/apppasswords
+    target: newtab
   - title: TailScale
-    description: VPN Network
-    icon: favicon
+    icon: hl-tailscale
     url: https://login.tailscale.com
+    target: newtab
 - name: Other
   icon: favicon
   items:
-  - title: Nutritionx
-    description: MacroNutrient Info
-    icon: favicon
-    url: https://www.nutritionix.com/
-    target: newtab
-  - title: ZType
-    description: Typing Speed Game
-    url: https://zty.pe/
-    icon: favicon
   - title: BitWarden
-    description: Password Manager
     icon: favicon
     url: https://vault.bitwarden.com/#/login
+    target: newtab
   - title: Perplexity AI
-    description: AI Tool
     icon: favicon
     url: https://www.perplexity.ai/spaces
+    target: newtab
   - title: Azure Cert Paths
-    description: Azure Cet Path FlowChart
     icon: favicon
     url: https://k21academy.com/azure-cloud/azure-certification-learning-path/
-  - title: Token2 TOTP QR Code Decoder
-    description: G711 .wav File Converter
+    target: newtab
+  - title: ZType
+    url: https://zty.pe/
     icon: favicon
-    url: https://g711.org/
-- name: Ur Mom
-  icon: favicon
-  items:
-  - title: You sure you want to see this?
-    description: Ur mom ;)
-    icon: favicon
-    url: https://m.youtube.com/watch?v=HIcSWuKMwOw
     target: newtab
