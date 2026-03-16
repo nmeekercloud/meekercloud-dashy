@@ -25,6 +25,10 @@ sections:
     icon: fas fa-globe
     url: https://meekercloud.xzy
     target: newtab
+  - title: File Repo
+    icon: fas fa-folder-open
+    url: https://meekercloud.xzy
+    target: newtab
   - title: Credly Cert Profile
     icon: https://www.credly.com/favicon.ico
     url: https://meekercloud.xzy
@@ -32,10 +36,6 @@ sections:
   - title: GitHub - nmeekercloud
     icon: favicon
     url: https://github.com/nmeekercloud
-    target: newtab
-  - title: File Repo
-    icon: fas fa-folder-open
-    url: https://meekercloud.xzy
     target: newtab
 - name: Microsoft Links
   icon: favicon
