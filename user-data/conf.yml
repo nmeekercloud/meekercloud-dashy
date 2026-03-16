@@ -45,47 +45,60 @@ sections:
     url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
     icon: far fa-hands-helping
 - name: My Projects
-  icon: fas fa-rocket
+  icon: favicon
   items:
   - title: My Website
     description: My Website
-    icon: favicon
+    icon: fas fa-globe
     url: https://meekercloud.xzy
+    target: newtab
+  - title: nmeekercloud GitHub
+    description: My Github
+    icon: fab fa-github
+    url: https://github.com/nmeekercloud
     target: newtab
   - title: File Repo
     description: Personal File Repo
-    icon: favicon
+    icon: fas fa-folder-open
+    url: https://meekercloud.xzy
+    target: newtab
+  - title: Credly Cert Profile
+    description: My Professional Certifications
+    icon: fas fa-certificate
     url: https://meekercloud.xzy
     target: newtab
 - name: Microsoft Links
-  icon: fas fa-rocket
+  icon: favicon
   items:
   - title: 365 Admin
     description: 365 Admin Portal
-    icon: favicon
+    icon: fab fa-microsoft
     url: https://admin.mmicrosoft.com
     target: newtab
   - title: Exchange Admin
     description: Exchange Online Admin Portal
     url: https://admin.exchange.microsoft.com
-    icon: favicon
+    icon: fas fa-envelope
+  - title: Exchange Email Quarantine
+    description: Exchange Online Email Quarantine
+    url: https://security.microsoft.com/quarantine
+    icon: fas fa-shield-alt
   - title: Entra Portal
     description: Microsoft Entra Admin Portal
-    provider: Dashy.to
-    icon: favicon
+    icon: fas fa-users
     url: https://entra.microsoft.com
   - title: Azure Portal
     description: Azure Portal
     url: https://porta.azure.com
-    icon: favicon
+    icon: fab fa-microsoft
   - title: Microsoft Purview
     description: Microsoft PurView Data Discovery and Classification
     url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: favicon
+    icon: fas fa-search
   - title: Microsoft Defender/Security
     description: Get help with Dashy, raise a bug, or get in contact
     url: https://security.microsoft.com
-    icon: favicon
+    icon: fas fa-shield-virus
   - title: Microsoft Defender/Security
     description: Device Protection and Email Policies/Rules
     url: https://security.microsoft.com
@@ -93,8 +106,88 @@ sections:
   - title: Microsoft Intune
     description: Intune MDM
     url: https://intune.microsoft.com
-    icon: favicon
+    icon: fas fa-mobile-alt
   - title: Microsoft Power Platform
     description: Build apps, automate workflows, and analyze data
     url: https://admin.powerplatform.microsoft.com
+    icon: fas fa-plug
+  - title: Microsoft SSPR
+    description: Microsoft Self-Service Password Reset Portal
+    url: https://passwordreset.microsoftonline.com/
+    icon: fas fa-key
+- name: Tools
+  icon: favicon
+  items:
+  - title: MXToolBox
+    description: For Domain Configuration Checks
+    icon: fas fa-tools
+    url: https://mxtoolbox.com/
+    target: newtab
+  - title: Redsift DMARC, SPF, & DKIM
+    description: Redsift DMARC, SPF, & DKIM Email Check Tool
+    url: https://redsift.com/tools/investigate
+    icon: fas fa-envelope-open
+  - title: Token2 TOTP Toolset
+    description: For creating virtual OTP Hardware Tokens
+    icon: fas fa-qrcode
+    url: https://www.token2.ch/site/page/totp-toolset
+  - title: Token2 TOTP QR Code Decoder
+    description: To decode QR Code to retrieve OTP Secret
+    icon: fas fa-qrcode
+    url: https://www.token2.com/site/page/totp-qr-image-decoder
+  - title: Amazon Poly Voice-To-Text
+    description: Amazon Poly Voice-To-Text
+    icon: fab fa-aws
+    url: https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fus-east-1.console.aws.amazon.com%2Fpolly%2Fhome%2FSynthesizeSpeech%3Fca-oauth-flow-id%3D0f0c%26hashArgs%3D%2523%26isauthcode%3Dtrue%26oauthStart%3D1773685119921%26region%3Dus-east-1%26state%3DhashArgsFromTB_us-east-1_813d6ee1a1866fba&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fpolly-tb&forceMobileApp=0&code_challenge=0FsuBbh0rBieKyyh-Ei4tMxKTRBkJRXDmqZsyW3il6g&code_challenge_method=SHA-256
+  - title: Token2 TOTP QR Code Decoder
+    description: G711 .wav File Converter
+    icon: fas fa-file-audio
+    url: https://g711.org/
+  - title: Scribe
+    description: Scribe Documentation
+    icon: fas fa-pen
+    url: https://scribehow.com
+  - title: Google App Password Creation
+    description: Direct URL to Create a Google App Password
     icon: favicon
+    url: https://myaccount.google.com/apppasswords
+  - title: TailScale
+    description: VPN Network
+    icon: favicon
+    url: https://login.tailscale.com
+- name: Other
+  icon: favicon
+  items:
+  - title: Nutritionx
+    description: MacroNutrient Info
+    icon: favicon
+    url: https://www.nutritionix.com/
+    target: newtab
+  - title: ZType
+    description: Typing Speed Game
+    url: https://zty.pe/
+    icon: favicon
+  - title: BitWarden
+    description: Password Manager
+    icon: favicon
+    url: https://vault.bitwarden.com/#/login
+  - title: Perplexity AI
+    description: AI Tool
+    icon: favicon
+    url: https://www.perplexity.ai/spaces
+  - title: Azure Cert Paths
+    description: Azure Cet Path FlowChart
+    icon: favicon
+    url: https://k21academy.com/azure-cloud/azure-certification-learning-path/
+  - title: Token2 TOTP QR Code Decoder
+    description: G711 .wav File Converter
+    icon: favicon
+    url: https://g711.org/
+- name: Ur Mom
+  icon: favicon
+  items:
+  - title: You sure you want to see this?
+    description: Ur mom ;)
+    icon: favicon
+    url: https://m.youtube.com/watch?v=HIcSWuKMwOw
+    target: newtab
