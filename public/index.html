@@ -15,7 +15,9 @@
   <link rel="stylesheet" type="text/css" href="/theme-fonts.css" media="print" onload="this.media='all'" />
   <!-- Default Page Title -->
   <title>Dashy</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
+
 
 <body>
   <!-- built files will be auto injected -->
@@ -40,6 +42,12 @@
     </div>
   </div>
   <!-- Devices without JS enabled -->
+  <script>
+  netlifyIdentity.init();
+  netlifyIdentity.on('init', user => {
+    if (!user) netlifyIdentity.open();
+  });
+  </script>
   <noscript>
     <strong>Sorry, JavaScript needs to be enabled to run Dashy 😥</strong>
   </noscript>
