@@ -1,8 +1,8 @@
 ---
 # Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: dashy.meekercloud.xyz
+  description: Quick Links
   navLinks:
   - title: GitHub
     path: https://github.com/Lissy93/dashy
@@ -11,7 +11,7 @@ pageInfo:
 
 # Optional app settings and configuration
 appConfig:
-  theme: colorful
+  theme: Glass-2
 
 # Main content - An array of sections, each containing an array of items
 sections:
@@ -44,3 +44,57 @@ sections:
     description: Get help with Dashy, raise a bug, or get in contact
     url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
     icon: far fa-hands-helping
+- name: My Projects
+  icon: fas fa-rocket
+  items:
+  - title: My Website
+    description: My Website
+    icon: favicon
+    url: https://meekercloud.xzy
+    target: newtab
+  - title: File Repo
+    description: Personal File Repo
+    icon: favicon
+    url: https://meekercloud.xzy
+    target: newtab
+- name: Microsoft Links
+  icon: fas fa-rocket
+  items:
+  - title: 365 Admin
+    description: 365 Admin Portal
+    icon: favicon
+    url: https://admin.mmicrosoft.com
+    target: newtab
+  - title: Exchange Admin
+    description: Exchange Online Admin Portal
+    url: https://admin.exchange.microsoft.com
+    icon: favicon
+  - title: Entra Portal
+    description: Microsoft Entra Admin Portal
+    provider: Dashy.to
+    icon: favicon
+    url: https://entra.microsoft.com
+  - title: Azure Portal
+    description: Azure Portal
+    url: https://porta.azure.com
+    icon: favicon
+  - title: Microsoft Purview
+    description: Microsoft PurView Data Discovery and Classification
+    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
+    icon: favicon
+  - title: Microsoft Defender/Security
+    description: Get help with Dashy, raise a bug, or get in contact
+    url: https://security.microsoft.com
+    icon: favicon
+  - title: Microsoft Defender/Security
+    description: Device Protection and Email Policies/Rules
+    url: https://security.microsoft.com
+    icon: favicon
+  - title: Microsoft Intune
+    description: Intune MDM
+    url: https://intune.microsoft.com
+    icon: favicon
+  - title: Microsoft Power Platform
+    description: Build apps, automate workflows, and analyze data
+    url: https://admin.powerplatform.microsoft.com
+    icon: favicon
