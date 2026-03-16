@@ -25,7 +25,7 @@ sections:
     icon: fas fa-globe
     url: https://meekercloud.xzy
     target: newtab
-    - title: Credly Cert Profile
+  - title: Credly Cert Profile
     icon: https://www.credly.com/favicon.ico
     url: https://meekercloud.xzy
     target: newtab
