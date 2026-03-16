@@ -57,7 +57,7 @@ sections:
     url: https://entra.microsoft.com
     target: newtab
   - title: Azure Portal
-    url: https://porta.azure.com
+    url: https://portal.azure.com
     icon: fas fa-cloud
     target: newtab
   - title: Microsoft Purview
