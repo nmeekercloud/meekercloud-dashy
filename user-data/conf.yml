@@ -14,7 +14,7 @@ appConfig:
     users:
   theme: Glass-2
   layoutMode: vertical
-  itemSize: large
+  itemSize: medium
 
 # Main content - An array of sections, each containing an array of items
 sections:
@@ -23,17 +23,17 @@ sections:
   items:
   - title: My Website
     icon: fas fa-globe
-    url: https://meekercloud.xzy
+    url: https://meekercloud.xyz/
     target: newtab
   - title: File Repo
     icon: fas fa-folder-open
-    url: https://meekercloud.xzy
+    url: https://meekercloud.xyz/
     target: newtab
   - title: Credly Cert Profile
     icon: https://www.credly.com/favicon.ico
-    url: https://meekercloud.xzy
+    url: https://www.credly.com/users/nathan-meeker.fc3e7ae8
     target: newtab
-  - title: GitHub - nmeekercloud
+  - title: GitHub
     icon: favicon
     url: https://github.com/nmeekercloud
     target: newtab
@@ -91,19 +91,19 @@ sections:
     url: https://redsift.com/tools/investigate
     icon: favicon
     target: newtab
-  - title: Token2 TOTP Toolset
+  - title: TOTP Virtual Tokens
     url: https://www.token2.ch/site/page/totp-toolset
     icon: favicon
     target: newtab
-  - title: Token2 TOTP QR Code Decoder
+  - title: TOTP QR Decoder
     icon: favicon
     url: https://www.token2.com/site/page/totp-qr-image-decoder
     target: newtab
-  - title: Amazon Poly Voice-To-Text
+  - title: AWS Voice-To-Text
     icon: favicon
     url: https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fus-east-1.console.aws.amazon.com%2Fpolly%2Fhome%2FSynthesizeSpeech%3Fca-oauth-flow-id%3D0f0c%26hashArgs%3D%2523%26isauthcode%3Dtrue%26oauthStart%3D1773685119921%26region%3Dus-east-1%26state%3DhashArgsFromTB_us-east-1_813d6ee1a1866fba&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fpolly-tb&forceMobileApp=0&code_challenge=0FsuBbh0rBieKyyh-Ei4tMxKTRBkJRXDmqZsyW3il6g&code_challenge_method=SHA-256
     target: newtab
-  - title: G711 .WAV Converter
+  - title: .WAV Converter
     icon: fas fa-file-audio
     url: https://g711.org/
   - title: Scribe
