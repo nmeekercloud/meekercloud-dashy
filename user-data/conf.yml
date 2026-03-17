@@ -27,13 +27,17 @@ sections:
     target: newtab
   - title: File Repo
     icon: fas fa-folder-open
-    url: https://meekercloud.xyz/
+    url: https://www.youtube.com/watch?v=xvFZjo5PgG0
+    target: newtab
+  - title: LinkedIn Profile
+    icon: favicon
+    url: www.linkedin.com/in/nathan-meeker
     target: newtab
   - title: Credly Cert Profile
     icon: https://www.credly.com/favicon.ico
     url: https://www.credly.com/users/nathan-meeker.fc3e7ae8
     target: newtab
-  - title: GitHub
+  - title: GitHub Repo
     icon: favicon
     url: https://github.com/nmeekercloud
     target: newtab
