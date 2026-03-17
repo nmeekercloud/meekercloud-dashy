@@ -62,7 +62,7 @@ sections:
     target: newtab
   - title: Azure Portal
     url: https://portal.azure.com
-    icon: fas fa-cloud
+    icon: fas fa-server
     target: newtab
   - title: Microsoft Purview
     url: https://purview.microsoft.com
@@ -120,6 +120,37 @@ sections:
   - title: TailScale
     icon: hl-tailscale
     url: https://login.tailscale.com
+    target: newtab
+- name: Warranty/Support Portals
+  icon: favicon
+  items:
+  - title: Dell
+    icon: favicon
+    url: https://www.dell.com/support/home/en-us
+    target: newtab
+  - title: Lenovo
+    icon: favicon
+    url: https://pcsupport.lenovo.com/us/en/warranty-lookup#/
+    target: newtab
+  - title: HP
+    icon: favicon
+    url: https://support.hp.com/us-en/check-warranty
+    target: newtab
+  - title: Asus
+    icon: favicon
+    url: https://www.asus.com/us/support/warranty-status-inquiry/
+    target: newtab
+  - title: Cisco TAC Support
+    icon: favicon
+    url: https://www.cisco.com/c/en/us/support/index.html
+    target: newtab
+  - title: Cisco Coverage Checker
+    icon: favicon
+    url: https://cway.cisco.com/sncheck/
+    target: newtab
+  - title: Cisco RMA Portal
+    icon: favicon
+    url: https://ibpa-gssc.cisco.com/rma/home/
     target: newtab
 - name: Other
   icon: favicon
