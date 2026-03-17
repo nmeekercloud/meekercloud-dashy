@@ -12,7 +12,7 @@ appConfig:
   auth:
     enableGuestAccess: true
     users:
-  theme: Glass-2
+  theme: glass-2
   layoutMode: vertical
   itemSize: medium
 
