@@ -14,7 +14,7 @@ appConfig:
     users:
   theme: glass-2
   layoutMode: vertical
-  itemSize: medium
+  itemSize: small
 
 # Main content - An array of sections, each containing an array of items
 sections:
@@ -26,11 +26,11 @@ sections:
     url: https://meekercloud.xyz/
     target: newtab
   - title: File Repo
-    icon: fas fa-folder-open
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/filebrowser.png
     url: https://files.meekercloud.xyz/
     target: newtab
   - title: LinkedIn Profile
-    icon: favicon
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/linkedin.png
     url: www.linkedin.com/in/nathan-meeker
     target: newtab
   - title: Credly Cert Profile
@@ -121,6 +121,10 @@ sections:
     icon: hl-tailscale
     url: https://login.tailscale.com
     target: newtab
+  - title: Icon Database
+    icon: https://dashboardicons.com/icons
+    url: https://login.tailscale.com
+    target: newtab
 - name: Warranty/Support Portals
   icon: favicon
   items:
@@ -137,19 +141,19 @@ sections:
     url: https://support.hp.com/us-en/check-warranty
     target: newtab
   - title: Asus
-    icon: favicon
+    icon: https://dashboardicons.com/icons/asus-full
     url: https://www.asus.com/us/support/warranty-status-inquiry/
     target: newtab
   - title: Cisco TAC Support
-    icon: favicon
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
     url: https://www.cisco.com/c/en/us/support/index.html
     target: newtab
   - title: Cisco Coverage Checker
-    icon: favicon
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
     url: https://cway.cisco.com/sncheck/
     target: newtab
   - title: Cisco RMA Portal
-    icon: favicon
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
     url: https://ibpa-gssc.cisco.com/rma/home/
     target: newtab
 - name: Other
