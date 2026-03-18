@@ -19,7 +19,7 @@ appConfig:
 # Main content - An array of sections, each containing an array of items
 sections:
 - name: My Projects
-  icon: favicon
+  icon: fas fa-dev
   items:
   - title: My Website
     icon: fas fa-globe
@@ -42,7 +42,7 @@ sections:
     url: https://github.com/nmeekercloud
     target: newtab
 - name: Microsoft Links
-  icon: favicon
+  icon: fab fa-microsoft
   items:
   - title: 365 Admin
     icon: fab fa-microsoft
@@ -85,7 +85,7 @@ sections:
     icon: fas fa-key
     target: newtab
 - name: Tools
-  icon: favicon
+  icon: fas fa-wrench
   items:
   - title: MXToolBox
     icon: favicon
@@ -126,7 +126,7 @@ sections:
     url: https://login.tailscale.com
     target: newtab
 - name: Warranty/Support Portals
-  icon: favicon
+  icon: fas fa-headset
   items:
   - title: Dell
     icon: favicon
@@ -157,7 +157,7 @@ sections:
     url: https://ibpa-gssc.cisco.com/rma/home/
     target: newtab
 - name: Other
-  icon: favicon
+  icon: fas fa-shuffle
   items:
   - title: BitWarden
     icon: favicon
