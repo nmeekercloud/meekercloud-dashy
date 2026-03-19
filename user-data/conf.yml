@@ -29,14 +29,6 @@ sections:
     icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/filebrowser.png
     url: https://files.meekercloud.xyz/
     target: newtab
-  - title: LinkedIn Profile
-    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/linkedin.png
-    url: www.linkedin.com/in/nathan-meeker
-    target: newtab
-  - title: Credly Cert Profile
-    icon: https://www.credly.com/favicon.ico
-    url: https://www.credly.com/users/nathan-meeker.fc3e7ae8
-    target: newtab
   - title: GitHub Repo
     icon: favicon
     url: https://github.com/nmeekercloud?tab=repositories
