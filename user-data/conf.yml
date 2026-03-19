@@ -39,7 +39,7 @@ sections:
     target: newtab
   - title: GitHub Repo
     icon: favicon
-    url: https://github.com/nmeekercloud
+    url: https://github.com/nmeekercloud?tab=repositories
     target: newtab
 - name: Microsoft Links
   icon: fab fa-microsoft
