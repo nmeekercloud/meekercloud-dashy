@@ -10,8 +10,8 @@ pageInfo:
 # Optional app settings and configuration
 appConfig:
   auth:
-    enableGuestAccess: true
-    users:
+    enableGuestAccess: false
+    #users:
   theme: glass-2
   layoutMode: vertical
   itemSize: small
@@ -19,7 +19,7 @@ appConfig:
 # Main content - An array of sections, each containing an array of items
 sections:
 - name: My Projects
-  icon: fas fa-dev
+  icon: fas fa-code
   items:
   - title: My Website
     icon: fas fa-globe
@@ -33,8 +33,8 @@ sections:
     icon: favicon
     url: https://github.com/nmeekercloud?tab=repositories
     target: newtab
-  - title: Daily Dashboard
-    icon: fas fa-guage
+  - title: Dashboard
+    icon: fas fa-gauge
     url: https://dashboard.meekercloud.xyz
     target: newtab
 - name: Microsoft Links
@@ -118,8 +118,8 @@ sections:
     url: https://login.tailscale.com
     target: newtab
   - title: Icon Database
-    icon: https://dashboardicons.com/icons
-    url: https://login.tailscale.com
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/dashboard-icons.png
+    url: https://dashboardicons.com/icons
     target: newtab
 - name: Warranty/Support Portals
   icon: fas fa-headset
@@ -137,7 +137,7 @@ sections:
     url: https://support.hp.com/us-en/check-warranty
     target: newtab
   - title: Asus
-    icon: https://dashboardicons.com/icons/asus-full
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/asus-full.png
     url: https://www.asus.com/us/support/warranty-status-inquiry/
     target: newtab
   - title: Cisco TAC Support
@@ -153,7 +153,7 @@ sections:
     url: https://ibpa-gssc.cisco.com/rma/home/
     target: newtab
 - name: Other
-  icon: fas fa-shuffle
+  icon: fas fa-random
   items:
   - title: BitWarden
     icon: favicon
