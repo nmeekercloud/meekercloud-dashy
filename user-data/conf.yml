@@ -14,7 +14,7 @@ appConfig:
     users:
   theme: glass-2
   layoutMode: vertical
-  itemSize: small
+  itemSize: medium
 
 # Main content - An array of sections, each containing an array of items
 sections:
@@ -115,7 +115,7 @@ sections:
     icon: favicon
     url: https://scribehow.com
   - title: Google Admin Portal
-    icon: favicon
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/google.png
     url: https://admin.google.com
     target: newtab
   - title: Google App Password Creation
@@ -198,7 +198,7 @@ sections:
     url: https://learnondemandsystemsb2c.b2clogin.com/learnondemandsystemsb2c.onmicrosoft.com/b2c_1a_signup_signin_tms/oauth2/v2.0/authorize?client_id=c602a47c-ab93-480b-ac8d-cccf54c59797&redirect_uri=https%3A%2F%2Flms.learnondemand.net%2FAuthenticationProvider%2FOwinCallback&response_type=id_token&scope=openid%20profile%20email&state=OpenIdConnect.AuthenticationProperties%3DfckXoZEpHQTZZLeLI6_41j0i2cpJkq5MVPHcOuJHFvUkpI_2iE9B172vvKZZs6jDEgkMrvjc0VZYwuD8DkoHC7eHQru1XGEB36ECZ74pxEjUh1NDwUYgpEghQflVhlqKmV6YxP2Mb0zaMJWANnZNQ-zQG1LS5cpnWVf9hHOnRqwBly-pPSE_naojd98xZRmYnt5lmM3fRAOXT62g18kK2cOcjQiGhu2YGTRBxmvwukKGSvz_EWfUfXnsMXshZNyp-a6Hx8w2meggtcxDLgpfqYZV3BGy6iHTH_Ked24NN6vJgtEc&response_mode=form_post&nonce=639097396823715634.NjNlMjEzNDItMzk5OC00YjdlLWIwOTMtZDVkMWRhZGNmZDAzNjBhN2IwNjYtOGUyNC00ZjE0LTliN2ItOWE3OTNlYmNjNDVj&ui=tms&x-client-SKU=ID_NET472&x-client-ver=7.0.3.0
     target: newtab
   - title: Udemy Courses
-    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/udemy-light.png
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/udemy-light.svg
     url: https://www.udemy.com/
     target: newtab
   - title: Jeremy's IT Lab
@@ -218,7 +218,7 @@ sections:
     url: https://www.perplexity.ai/spaces
     target: newtab
   - title: ChatGPT
-    icon: favicon
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/chatgpt.png
     url: https://chatgpt.com/
     target: newtab
   - title: ZType
