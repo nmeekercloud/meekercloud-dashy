@@ -18,10 +18,13 @@ appConfig:
 
 # Main content - An array of sections, each containing an array of items
 sections:
-- name: My Projects
+
+- name: Projects
   icon: fas fa-code
+  sectionLayout: grid
+  itemCountX: 1
   items:
-  - title: My Website
+  - title: MeekerCloud Website
     icon: fas fa-globe
     url: https://meekercloud.xyz/
     target: newtab
@@ -34,10 +37,11 @@ sections:
     url: https://github.com/nmeekercloud?tab=repositories
     target: newtab
   - title: Dashboard
-    icon: fas fa-tachometer-alt
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/dashy.png
     url: https://dashboard.meekercloud.xyz
     target: newtab
-- name: Microsoft Links
+
+- name: Microsoft Admin Portals
   icon: fab fa-microsoft
   items:
   - title: 365 Admin
@@ -80,7 +84,8 @@ sections:
     url: https://passwordreset.microsoftonline.com/
     icon: fas fa-key
     target: newtab
-- name: Tools
+
+- name: IT Tools
   icon: fas fa-wrench
   items:
   - title: MXToolBox
@@ -109,6 +114,10 @@ sections:
   - title: Scribe
     icon: favicon
     url: https://scribehow.com
+  - title: Google Admin Portal
+    icon: favicon
+    url: https://admin.google.com
+    target: newtab
   - title: Google App Password Creation
     icon: favicon
     url: https://myaccount.google.com/apppasswords
@@ -121,6 +130,11 @@ sections:
     icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/dashboard-icons.png
     url: https://dashboardicons.com/icons
     target: newtab
+  - title: Font Awesome Icons
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/fontawesome.png
+    url: https://fontawesome.com/
+    target: newtab
+
 - name: Warranty/Support Portals
   icon: fas fa-headset
   items:
@@ -152,6 +166,46 @@ sections:
     icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
     url: https://ibpa-gssc.cisco.com/rma/home/
     target: newtab
+
+- name: Training Resources
+  icon: fas fa-award
+  items:
+  - title: Credly Certs
+    url: https://www.credly.com/earner/dashboard
+    icon: favicon
+    target: newtab
+  - title: Cisco CertMetrics
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
+    url: https://cp.certmetrics.com/cisco/en/home/dashboard
+    target: newtab
+  - title: Cisco Continuing Education
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
+    url: https://ce.cisco.com/
+  - title: Cisco Cert Roadmap
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
+    url: https://www.cisco.com/c/dam/en_us/training-events/certifications/career-path.pdf
+    target: newtab
+  - title: Microsoft Learn
+    icon: favicon
+    url: https://learn.microsoft.com/en-us\
+    target: newtab
+  - title: Azure Cert Roadmap
+    icon: favicon
+    url: https://k21academy.com/azure-cloud/azure-certification-learning-path/
+    target: newtab
+  - title: Skillable Azure Labs
+    icon: favicon
+    url: https://learnondemandsystemsb2c.b2clogin.com/learnondemandsystemsb2c.onmicrosoft.com/b2c_1a_signup_signin_tms/oauth2/v2.0/authorize?client_id=c602a47c-ab93-480b-ac8d-cccf54c59797&redirect_uri=https%3A%2F%2Flms.learnondemand.net%2FAuthenticationProvider%2FOwinCallback&response_type=id_token&scope=openid%20profile%20email&state=OpenIdConnect.AuthenticationProperties%3DfckXoZEpHQTZZLeLI6_41j0i2cpJkq5MVPHcOuJHFvUkpI_2iE9B172vvKZZs6jDEgkMrvjc0VZYwuD8DkoHC7eHQru1XGEB36ECZ74pxEjUh1NDwUYgpEghQflVhlqKmV6YxP2Mb0zaMJWANnZNQ-zQG1LS5cpnWVf9hHOnRqwBly-pPSE_naojd98xZRmYnt5lmM3fRAOXT62g18kK2cOcjQiGhu2YGTRBxmvwukKGSvz_EWfUfXnsMXshZNyp-a6Hx8w2meggtcxDLgpfqYZV3BGy6iHTH_Ked24NN6vJgtEc&response_mode=form_post&nonce=639097396823715634.NjNlMjEzNDItMzk5OC00YjdlLWIwOTMtZDVkMWRhZGNmZDAzNjBhN2IwNjYtOGUyNC00ZjE0LTliN2ItOWE3OTNlYmNjNDVj&ui=tms&x-client-SKU=ID_NET472&x-client-ver=7.0.3.0
+    target: newtab
+  - title: Udemy Courses
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/udemy-light.png
+    url: https://www.udemy.com/
+    target: newtab
+  - title: Jeremy's IT Lab
+    icon: favicon
+    url: https://courses.jeremysitlab.com/
+    target: newtab
+
 - name: Other
   icon: fas fa-random
   items:
@@ -163,9 +217,9 @@ sections:
     icon: favicon
     url: https://www.perplexity.ai/spaces
     target: newtab
-  - title: Azure Cert Paths
+  - title: ChatGPT
     icon: favicon
-    url: https://k21academy.com/azure-cloud/azure-certification-learning-path/
+    url: https://chatgpt.com/
     target: newtab
   - title: ZType
     url: https://zty.pe/
