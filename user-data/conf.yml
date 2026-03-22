@@ -40,6 +40,14 @@ sections:
     icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/dashy.png
     url: https://dashboard.meekercloud.xyz
     target: newtab
+  - title: Netlify
+    icon: favicon
+    url: https://app.netlify.com/teams/nmeekercloud/projects
+    target: newtab
+  - title: NameCheap
+    icon: favicon
+    url: https://www.namecheap.com/myaccount/login
+    target: newtab
 
 - name: Microsoft Admin Portals
   icon: fab fa-microsoft
