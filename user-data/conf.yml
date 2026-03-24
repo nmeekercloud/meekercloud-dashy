@@ -1,4 +1,3 @@
----
 pageInfo:
   title: links.meekercloud
   description: Quick Links
@@ -11,220 +10,244 @@ appConfig:
     users:
   theme: glass-2
   layout: vertical
-  itemSize: small
   defaultOpeningMethod: newtab
-  iconSize: medium
+  iconSize: small
   colCount: 6
 sections:
-- name: Projects
-  icon: fas fa-code
-  items:
-  - title: MeekerCloud Website
-    icon: fas fa-globe
-    url: https://meekercloud.xyz/
-    target: newtab
-  - title: File Repo
-    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/filebrowser.png
-    url: https://files.meekercloud.xyz/
-    target: newtab
-  - title: GitHub Repo
-    icon: favicon
-    url: https://github.com/nmeekercloud?tab=repositories
-    target: newtab
-  - title: Dashboard
-    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/dashy.png
-    url: https://dashboard.meekercloud.xyz
-    target: newtab
-  - title: Netlify
-    icon: favicon
-    url: https://app.netlify.com/teams/nmeekercloud/projects
-    target: newtab
-  - title: NameCheap
-    icon: favicon
-    url: https://www.namecheap.com/myaccount/login
-    target: newtab
-
-- name: Microsoft Admin Portals
-  icon: fab fa-microsoft
-  items:
-  - title: 365 Admin
+  - name: Projects
+    icon: fas fa-code
+    items:
+    - title: MeekerCloud Website
+      icon: fas fa-globe
+      url: https://meekercloud.xyz/
+      target: newtab
+    - title: File Repo
+      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/filebrowser.png
+      url: https://files.meekercloud.xyz/
+      target: newtab
+    - title: GitHub Repo
+      icon: favicon
+      url: https://github.com/nmeekercloud?tab=repositories
+      target: newtab
+    - title: Dashboard
+      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/dashy.png
+      url: https://dashboard.meekercloud.xyz
+      target: newtab
+    - title: Netlify
+      icon: favicon
+      url: https://app.netlify.com/teams/nmeekercloud/projects
+      target: newtab
+    - title: NameCheap
+      icon: favicon
+      url: https://www.namecheap.com/myaccount/login
+      target: newtab
+    displayData:
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+  - name: Microsoft Admin Portals
     icon: fab fa-microsoft
-    url: https://admin.microsoft.com
-    target: newtab
-  - title: Exchange Admin
-    url: https://admin.exchange.microsoft.com
-    icon: fas fa-envelope
-    target: newtab
-  - title: Exchange Email Quarantine
-    url: https://security.microsoft.com/quarantine
-    icon: fas fa-shield-alt
-    target: newtab
-  - title: Entra Portal
-    icon: fas fa-users
-    url: https://entra.microsoft.com
-    target: newtab
-  - title: Azure Portal
-    url: https://portal.azure.com
-    icon: fas fa-server
-    target: newtab
-  - title: Microsoft Purview
-    url: https://purview.microsoft.com
-    icon: fas fa-search
-    target: newtab
-  - title: Microsoft Defender/Security
-    url: https://security.microsoft.com
-    icon: fas fa-shield-virus
-    target: newtab
-  - title: Microsoft Intune
-    url: https://intune.microsoft.com
-    icon: fas fa-mobile-alt
-    target: newtab
-  - title: Microsoft Power Platform
-    url: https://admin.powerplatform.microsoft.com
-    icon: fas fa-cogs
-    target: newtab
-  - title: Microsoft SSPR
-    url: https://passwordreset.microsoftonline.com/
-    icon: fas fa-key
-    target: newtab
-
-- name: IT Tools
-  icon: fas fa-wrench
-  items:
-  - title: MXToolBox
-    icon: favicon
-    url: https://mxtoolbox.com/
-    target: newtab
-  - title: Redsift DMARC, SPF, & DKIM
-    url: https://redsift.com/tools/investigate
-    icon: favicon
-    target: newtab
-  - title: TOTP Virtual Tokens
-    url: https://www.token2.ch/site/page/totp-toolset
-    icon: favicon
-    target: newtab
-  - title: TOTP QR Decoder
-    icon: favicon
-    url: https://www.token2.com/site/page/totp-qr-image-decoder
-    target: newtab
-  - title: AWS Voice-To-Text
-    icon: favicon
-    url: https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fus-east-1.console.aws.amazon.com%2Fpolly%2Fhome%2FSynthesizeSpeech%3Fca-oauth-flow-id%3D0f0c%26hashArgs%3D%2523%26isauthcode%3Dtrue%26oauthStart%3D1773685119921%26region%3Dus-east-1%26state%3DhashArgsFromTB_us-east-1_813d6ee1a1866fba&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fpolly-tb&forceMobileApp=0&code_challenge=0FsuBbh0rBieKyyh-Ei4tMxKTRBkJRXDmqZsyW3il6g&code_challenge_method=SHA-256
-    target: newtab
-  - title: .WAV Converter
-    icon: fas fa-file-audio
-    url: https://g711.org/
-  - title: Scribe
-    icon: favicon
-    url: https://scribehow.com
-  - title: Google Admin Portal
-    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/google.png
-    url: https://admin.google.com
-    target: newtab
-  - title: Google App Password Creation
-    icon: favicon
-    url: https://myaccount.google.com/apppasswords
-    target: newtab
-  - title: TailScale
-    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/tailscale-light.png
-    url: https://login.tailscale.com
-    target: newtab
-  - title: Icon Database
-    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/dashboard-icons.png
-    url: https://dashboardicons.com/icons
-    target: newtab
-  - title: Font Awesome Icons
-    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/fontawesome.png
-    url: https://fontawesome.com/
-    target: newtab
-
-- name: Warranty/Support Portals
-  icon: fas fa-headset
-  items:
-  - title: Dell
-    icon: favicon
-    url: https://www.dell.com/support/home/en-us
-    target: newtab
-  - title: Lenovo
-    icon: favicon
-    url: https://pcsupport.lenovo.com/us/en/warranty-lookup#/
-    target: newtab
-  - title: HP
-    icon: favicon
-    url: https://support.hp.com/us-en/check-warranty
-    target: newtab
-  - title: Asus
-    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/asus.png
-    url: https://www.asus.com/us/support/warranty-status-inquiry/
-    target: newtab
-  - title: Cisco TAC Support
-    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
-    url: https://www.cisco.com/c/en/us/support/index.html
-    target: newtab
-  - title: Cisco Coverage Checker
-    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
-    url: https://cway.cisco.com/sncheck/
-    target: newtab
-  - title: Cisco RMA Portal
-    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
-    url: https://ibpa-gssc.cisco.com/rma/home/
-    target: newtab
-
-- name: Training Resources
-  icon: fas fa-award
-  items:
-  - title: Credly Certs
-    url: https://www.credly.com/earner/dashboard
-    icon: favicon
-    target: newtab
-  - title: Cisco CertMetrics
-    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
-    url: https://cp.certmetrics.com/cisco/en/home/dashboard
-    target: newtab
-  - title: Cisco Continuing Education
-    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
-    url: https://ce.cisco.com/
-  - title: Cisco Cert Roadmap
-    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
-    url: https://www.cisco.com/c/dam/en_us/training-events/certifications/career-path.pdf
-    target: newtab
-  - title: Microsoft Learn
-    icon: favicon
-    url: https://learn.microsoft.com/en-us\
-    target: newtab
-  - title: Azure Cert Roadmap
-    icon: favicon
-    url: https://k21academy.com/azure-cloud/azure-certification-learning-path/
-    target: newtab
-  - title: Skillable Azure Labs
-    icon: https://pb.dashboardicons.com/api/files/community_gallery/06xv0yml50bfqvm/skillable_logo_5aqi67z26z.png
-    url: https://learnondemandsystemsb2c.b2clogin.com/learnondemandsystemsb2c.onmicrosoft.com/b2c_1a_signup_signin_tms/oauth2/v2.0/authorize?client_id=c602a47c-ab93-480b-ac8d-cccf54c59797&redirect_uri=https%3A%2F%2Flms.learnondemand.net%2FAuthenticationProvider%2FOwinCallback&response_type=id_token&scope=openid%20profile%20email&state=OpenIdConnect.AuthenticationProperties%3DfckXoZEpHQTZZLeLI6_41j0i2cpJkq5MVPHcOuJHFvUkpI_2iE9B172vvKZZs6jDEgkMrvjc0VZYwuD8DkoHC7eHQru1XGEB36ECZ74pxEjUh1NDwUYgpEghQflVhlqKmV6YxP2Mb0zaMJWANnZNQ-zQG1LS5cpnWVf9hHOnRqwBly-pPSE_naojd98xZRmYnt5lmM3fRAOXT62g18kK2cOcjQiGhu2YGTRBxmvwukKGSvz_EWfUfXnsMXshZNyp-a6Hx8w2meggtcxDLgpfqYZV3BGy6iHTH_Ked24NN6vJgtEc&response_mode=form_post&nonce=639097396823715634.NjNlMjEzNDItMzk5OC00YjdlLWIwOTMtZDVkMWRhZGNmZDAzNjBhN2IwNjYtOGUyNC00ZjE0LTliN2ItOWE3OTNlYmNjNDVj&ui=tms&x-client-SKU=ID_NET472&x-client-ver=7.0.3.0
-    target: newtab
-  - title: Udemy Courses
-    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/udemy-light.png
-    url: https://www.udemy.com/
-    target: newtab
-  - title: Jeremy's IT Lab
-    icon: favicon
-    url: https://courses.jeremysitlab.com/
-    target: newtab
-
-- name: Other
-  icon: fas fa-random
-  items:
-  - title: BitWarden
-    icon: favicon
-    url: https://vault.bitwarden.com/#/login
-    target: newtab
-  - title: Perplexity AI
-    icon: favicon
-    url: https://www.perplexity.ai/spaces
-    target: newtab
-  - title: ChatGPT
-    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/chatgpt.png
-    url: https://chatgpt.com/
-    target: newtab
-  - title: ZType
-    url: https://zty.pe/
-    icon: favicon
-    target: newtab
+    items:
+    - title: 365 Admin
+      icon: fab fa-microsoft
+      url: https://admin.microsoft.com
+      target: newtab
+    - title: Exchange Admin
+      url: https://admin.exchange.microsoft.com
+      icon: fas fa-envelope
+      target: newtab
+    - title: Exchange Email Quarantine
+      url: https://security.microsoft.com/quarantine
+      icon: fas fa-shield-alt
+      target: newtab
+    - title: Entra Portal
+      icon: fas fa-users
+      url: https://entra.microsoft.com
+      target: newtab
+    - title: Azure Portal
+      url: https://portal.azure.com
+      icon: fas fa-server
+      target: newtab
+    - title: Microsoft Purview
+      url: https://purview.microsoft.com
+      icon: fas fa-search
+      target: newtab
+    - title: Microsoft Defender/Security
+      url: https://security.microsoft.com
+      icon: fas fa-shield-virus
+      target: newtab
+    - title: Microsoft Intune
+      url: https://intune.microsoft.com
+      icon: fas fa-mobile-alt
+      target: newtab
+    - title: Microsoft Power Platform
+      url: https://admin.powerplatform.microsoft.com
+      icon: fas fa-cogs
+      target: newtab
+    - title: Microsoft SSPR
+      url: https://passwordreset.microsoftonline.com/
+      icon: fas fa-key
+      target: newtab
+    displayData:
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+  - name: IT Tools
+    icon: fas fa-wrench
+    items:
+    - title: MXToolBox
+      icon: favicon
+      url: https://mxtoolbox.com/
+      target: newtab
+    - title: Redsift DMARC, SPF, & DKIM
+      url: https://redsift.com/tools/investigate
+      icon: favicon
+      target: newtab
+    - title: TOTP Virtual Tokens
+      url: https://www.token2.ch/site/page/totp-toolset
+      icon: favicon
+      target: newtab
+    - title: TOTP QR Decoder
+      icon: favicon
+      url: https://www.token2.com/site/page/totp-qr-image-decoder
+      target: newtab
+    - title: AWS Voice-To-Text
+      icon: favicon
+      url: https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fus-east-1.console.aws.amazon.com%2Fpolly%2Fhome%2FSynthesizeSpeech%3Fca-oauth-flow-id%3D0f0c%26hashArgs%3D%2523%26isauthcode%3Dtrue%26oauthStart%3D1773685119921%26region%3Dus-east-1%26state%3DhashArgsFromTB_us-east-1_813d6ee1a1866fba&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fpolly-tb&forceMobileApp=0&code_challenge=0FsuBbh0rBieKyyh-Ei4tMxKTRBkJRXDmqZsyW3il6g&code_challenge_method=SHA-256
+      target: newtab
+    - title: .WAV Converter
+      icon: fas fa-file-audio
+      url: https://g711.org/
+    - title: Scribe
+      icon: favicon
+      url: https://scribehow.com
+    - title: Google Admin Portal
+      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/google.png
+      url: https://admin.google.com
+      target: newtab
+    - title: Google App Password Creation
+      icon: favicon
+      url: https://myaccount.google.com/apppasswords
+      target: newtab
+    - title: TailScale
+      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/tailscale-light.png
+      url: https://login.tailscale.com
+      target: newtab
+    - title: Icon Database
+      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/dashboard-icons.png
+      url: https://dashboardicons.com/icons
+      target: newtab
+    - title: Font Awesome Icons
+      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/fontawesome.png
+      url: https://fontawesome.com/
+      target: newtab
+    displayData:
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+  - name: Warranty/Support Portals
+    icon: fas fa-headset
+    items:
+    - title: Dell
+      icon: favicon
+      url: https://www.dell.com/support/home/en-us
+      target: newtab
+    - title: Lenovo
+      icon: favicon
+      url: https://pcsupport.lenovo.com/us/en/warranty-lookup#/
+      target: newtab
+    - title: HP
+      icon: favicon
+      url: https://support.hp.com/us-en/check-warranty
+      target: newtab
+    - title: Asus
+      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/asus.png
+      url: https://www.asus.com/us/support/warranty-status-inquiry/
+      target: newtab
+    - title: Cisco TAC Support
+      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
+      url: https://www.cisco.com/c/en/us/support/index.html
+      target: newtab
+    - title: Cisco Coverage Checker
+      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
+      url: https://cway.cisco.com/sncheck/
+      target: newtab
+    - title: Cisco RMA Portal
+      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
+      url: https://ibpa-gssc.cisco.com/rma/home/
+      target: newtab
+    displayData:
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+  - name: Training Resources
+    icon: fas fa-award
+    items:
+    - title: Credly Certs
+      url: https://www.credly.com/earner/dashboard
+      icon: favicon
+      target: newtab
+    - title: Cisco CertMetrics
+      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
+      url: https://cp.certmetrics.com/cisco/en/home/dashboard
+      target: newtab
+    - title: Cisco Continuing Education
+      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
+      url: https://ce.cisco.com/
+    - title: Cisco Cert Roadmap
+      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cisco.png
+      url: https://www.cisco.com/c/dam/en_us/training-events/certifications/career-path.pdf
+      target: newtab
+    - title: Microsoft Learn
+      icon: favicon
+      url: https://learn.microsoft.com/en-us\
+      target: newtab
+    - title: Azure Cert Roadmap
+      icon: favicon
+      url: https://k21academy.com/azure-cloud/azure-certification-learning-path/
+      target: newtab
+    - title: Skillable Azure Labs
+      icon: https://pb.dashboardicons.com/api/files/community_gallery/06xv0yml50bfqvm/skillable_logo_5aqi67z26z.png
+      url: https://learnondemandsystemsb2c.b2clogin.com/learnondemandsystemsb2c.onmicrosoft.com/b2c_1a_signup_signin_tms/oauth2/v2.0/authorize?client_id=c602a47c-ab93-480b-ac8d-cccf54c59797&redirect_uri=https%3A%2F%2Flms.learnondemand.net%2FAuthenticationProvider%2FOwinCallback&response_type=id_token&scope=openid%20profile%20email&state=OpenIdConnect.AuthenticationProperties%3DfckXoZEpHQTZZLeLI6_41j0i2cpJkq5MVPHcOuJHFvUkpI_2iE9B172vvKZZs6jDEgkMrvjc0VZYwuD8DkoHC7eHQru1XGEB36ECZ74pxEjUh1NDwUYgpEghQflVhlqKmV6YxP2Mb0zaMJWANnZNQ-zQG1LS5cpnWVf9hHOnRqwBly-pPSE_naojd98xZRmYnt5lmM3fRAOXT62g18kK2cOcjQiGhu2YGTRBxmvwukKGSvz_EWfUfXnsMXshZNyp-a6Hx8w2meggtcxDLgpfqYZV3BGy6iHTH_Ked24NN6vJgtEc&response_mode=form_post&nonce=639097396823715634.NjNlMjEzNDItMzk5OC00YjdlLWIwOTMtZDVkMWRhZGNmZDAzNjBhN2IwNjYtOGUyNC00ZjE0LTliN2ItOWE3OTNlYmNjNDVj&ui=tms&x-client-SKU=ID_NET472&x-client-ver=7.0.3.0
+      target: newtab
+    - title: Udemy Courses
+      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/udemy-light.png
+      url: https://www.udemy.com/
+      target: newtab
+    - title: Jeremy's IT Lab
+      icon: favicon
+      url: https://courses.jeremysitlab.com/
+      target: newtab
+    displayData:
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+  - name: Other
+    icon: fas fa-random
+    items:
+    - title: BitWarden
+      icon: favicon
+      url: https://vault.bitwarden.com/#/login
+      target: newtab
+    - title: Perplexity AI
+      icon: favicon
+      url: https://www.perplexity.ai/spaces
+      target: newtab
+    - title: ChatGPT
+      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/chatgpt.png
+      url: https://chatgpt.com/
+      target: newtab
+    - title: ZType
+      url: https://zty.pe/
+      icon: favicon
+      target: newtab
+    displayData:
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
