@@ -1,13 +1,10 @@
 ---
-# Page meta info, like heading, footer text and nav links
 pageInfo:
   title: links.meekercloud
   description: Quick Links
   navLinks:
   - title: Documentation
     path: https://dashy.to/docs
-
-# Optional app settings and configuration
 appConfig:
   auth:
     enableGuestAccess: True
@@ -16,21 +13,11 @@ appConfig:
   layout: vertical
   itemSize: small
   defaultOpeningMethod: newtab
-  iconSize: large
+  iconSize: medium
   colCount: 6
-  
-
-  
-
-  
-
-# Main content - An array of sections, each containing an array of items
 sections:
-
 - name: Projects
   icon: fas fa-code
-  sectionLayout: grid
-  itemCountX: 1
   items:
   - title: MeekerCloud Website
     icon: fas fa-globe
@@ -59,7 +46,6 @@ sections:
 
 - name: Microsoft Admin Portals
   icon: fab fa-microsoft
-  displayData:
   items:
   - title: 365 Admin
     icon: fab fa-microsoft
@@ -90,7 +76,6 @@ sections:
     icon: fas fa-shield-virus
     target: newtab
   - title: Microsoft Intune
-    description: "Endpoint management portal"
     url: https://intune.microsoft.com
     icon: fas fa-mobile-alt
     target: newtab
