@@ -1,6 +1,5 @@
 pageInfo:
   title: links.meekercloud
-  description: Quick Links
   navLinks:
   - title: Documentation
     path: https://dashy.to/docs
@@ -18,7 +17,7 @@ sections:
     icon: fas fa-code
     items:
     - title: MeekerCloud Website
-      icon: fas fa-globe
+      icon: fas fa-sitemap
       url: https://meekercloud.xyz/
       target: newtab
     - title: File Repo
@@ -46,7 +45,7 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-  - name: Microsoft Admin Portals
+  - name: Microsoft
     icon: fab fa-microsoft
     items:
     - title: 365 Admin
@@ -57,7 +56,7 @@ sections:
       url: https://admin.exchange.microsoft.com
       icon: fas fa-envelope
       target: newtab
-    - title: Exchange Email Quarantine
+    - title: Exchange Quarantine
       url: https://security.microsoft.com/quarantine
       icon: fas fa-shield-alt
       target: newtab
@@ -69,19 +68,19 @@ sections:
       url: https://portal.azure.com
       icon: fas fa-server
       target: newtab
-    - title: Microsoft Purview
+    - title: Purview/Compliance
       url: https://purview.microsoft.com
       icon: fas fa-search
       target: newtab
-    - title: Microsoft Defender/Security
+    - title: Defender/Security
       url: https://security.microsoft.com
       icon: fas fa-shield-virus
       target: newtab
-    - title: Microsoft Intune
+    - title: Intune Portal
       url: https://intune.microsoft.com
       icon: fas fa-mobile-alt
       target: newtab
-    - title: Microsoft Power Platform
+    - title: Power Platform
       url: https://admin.powerplatform.microsoft.com
       icon: fas fa-cogs
       target: newtab
@@ -148,7 +147,7 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-  - name: Warranty/Support Portals
+  - name: Warranty/Support
     icon: fas fa-headset
     items:
     - title: Dell
