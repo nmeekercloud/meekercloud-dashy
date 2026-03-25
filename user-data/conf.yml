@@ -17,7 +17,7 @@ sections:
     icon: fas fa-code
     items:
     - title: MeekerCloud Website
-      icon: fas fa-sitemap
+      icon: fas fa-globe
       url: https://meekercloud.xyz/
       target: newtab
     - title: File Repo
