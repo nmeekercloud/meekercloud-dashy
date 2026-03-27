@@ -22,7 +22,7 @@ sections:
       target: newtab
     - title: File Repo
       icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/filebrowser.png
-      url: https://files.meekercloud.xyz/
+      url: https://fileserver.tail5c8c15.ts.net/
       target: newtab
     - title: GitHub Repo
       icon: favicon
