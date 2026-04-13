@@ -242,6 +242,16 @@ sections:
       icon: favicon
       url: https://k21academy.com/azure-cloud/azure-certification-learning-path/
       target: newtab
+    - title: Microsoft Cert Roadmap
+      description: Microsoft Certification Paths - 2026
+      icon: favicon
+      url: https://www.certificationcamps.com/wp-content/uploads/microsoft-certifications-roadmap-2026-scaled.webp
+      target: newtab
+    - title: Full Cert Roadmap - Paul Jerimy
+      description: Full Certification Paths - Updated 2024
+      icon: favicon
+      url: https://pauljerimy.com/security-certification-roadmap
+      target: newtab
     - title: Skillable Azure Labs
       description: Azure Practice Labs (1 year access)
       icon: https://pb.dashboardicons.com/api/files/community_gallery/06xv0yml50bfqvm/skillable_logo_5aqi67z26z.png
@@ -257,6 +267,10 @@ sections:
       icon: favicon
       url: https://courses.jeremysitlab.com/
       target: newtab
+    - title: IT Career Pathways
+      description: Explore different IT career paths and certification options
+      icon: favicon
+      url: https://www.cyberseek.org/pathway.html
     displayData:
       rows: 1
       cols: 1
