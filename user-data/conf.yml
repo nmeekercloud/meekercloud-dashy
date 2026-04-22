@@ -172,7 +172,7 @@ sections:
     items:
     - title: TeamViewer Download
       description: Remote Support Software
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/team-viewer.svg
+      icon: favicon
       url: https://download.teamviewer.com/download/TeamViewerQS_x64.exe?_gl=1*14x5w61*_gcl_aw*R0NMLjE3NzYxODI3MjEuQ2owS0NRand5X2ZPQmhDNkFSSXNBSEtGQjc5cEozdWlidmliS0dTbTJ5TUJobVVBRHdveVc5RUdxM3Z2RWxDcTR6RzR1dGstSUQ4ZU9tY2FBcG1ERUFMd193Y0I.*_gcl_au*ODc2NzM3MTc3LjE3NzYxODI3MDQ
       target: newtab
     - title: Dell
