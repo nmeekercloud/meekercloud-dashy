@@ -162,6 +162,11 @@ sections:
       icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/fontawesome.png
       url: https://fontawesome.com/
       target: newtab
+    - title: FavIcon Tester
+      description: Test a URL to verify it has a favicon
+      icon: favicon
+      url: https://devtoollab.com/tools/favicon-checker
+      target: newtab
     displayData:
       rows: 1
       cols: 1
@@ -289,6 +294,11 @@ sections:
       icon: favicon
       url: https://vault.bitwarden.com/#/login
       target: newtab
+    - title: BitWarden Password Generator
+      description: Passphrase Generator (No login required)
+      icon: favicon
+      url: https://bitwarden.com/passphrase-generator/#passphrase-generator
+      target: newtab
     - title: Perplexity AI
       icon: favicon
       url: https://www.perplexity.ai/spaces
@@ -297,9 +307,18 @@ sections:
       icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/chatgpt.png
       url: https://chatgpt.com/
       target: newtab
+    - title: Claude AI
+      icon: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/claude.svg
+      url: https://claude.ai/
+      target: newtab
     - title: ZType
       description: Fun Typing Game
       url: https://zty.pe/
+      icon: favicon
+      target: newtab
+    - title: PTO Planner
+      description: PTO Planner/Calculator Tool
+      url: https://pto-planner.com/
       icon: favicon
       target: newtab
     displayData:
