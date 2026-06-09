@@ -134,6 +134,10 @@ sections:
       description: To convert files to .WAV file type
       icon: fas fa-file-audio
       url: https://g711.org/
+    - title: File Converter
+      description: Convertio File Converter
+      icon: favicon
+      url: https://convertio.co/png-ico/
     - title: Scribe
       description: Documentation Resource
       icon: favicon
@@ -319,7 +323,7 @@ sections:
     - title: PTO Planner
       description: PTO Planner/Calculator Tool
       url: https://pto-planner.com/
-      icon: favicon
+      icon: https://pb.dashboardicons.com/api/files/community_gallery/02h3uyueokrnqj1/pto_planner_1b1pccfozx.png
       target: newtab
     displayData:
       rows: 1
