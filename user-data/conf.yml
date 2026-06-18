@@ -333,7 +333,7 @@ sections:
     - title: Nutritionix
       description: Nutrition Macro Tracking
       url: https://www.nutritionix.com/
-      icon: favicon
+      icon: https://pb.dashboardicons.com/api/files/community_gallery/efh6l5xv7kjo1li/nutritionix_9uiyleeggp.png
       target: newtab
     displayData:
       rows: 1
