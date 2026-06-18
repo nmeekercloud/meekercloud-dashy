@@ -115,6 +115,11 @@ sections:
       url: https://redsift.com/tools/investigate
       icon: favicon
       target: newtab
+    - title: Easy DMARC Policy Checker
+      description: Check SPF Records for domains and subdomains
+      url: https://easydmarc.com/tools/spf-lookup?
+      icon: favicon
+      target: newtab
     - title: TOTP Virtual Tokens
       description: Create virtual hardware OTP tokens
       url: https://www.token2.ch/site/page/totp-toolset
@@ -324,6 +329,11 @@ sections:
       description: PTO Planner/Calculator Tool
       url: https://pto-planner.com/
       icon: https://pb.dashboardicons.com/api/files/community_gallery/02h3uyueokrnqj1/pto_planner_1b1pccfozx.png
+      target: newtab
+    - title: Nutritionix
+      description: Nutrition Macro Tracking
+      url: https://www.nutritionix.com/
+      icon: favicon
       target: newtab
     displayData:
       rows: 1
