@@ -156,6 +156,11 @@ sections:
       icon: favicon
       url: https://myaccount.google.com/apppasswords
       target: newtab
+    - title: Win11Debloat
+      description: Github Tool to remove bloatware and AI settings
+      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/windows-11.png
+      url: https://github.com/raphire/win11debloat
+      target: newtab
     - title: TailScale
       description: Free VPN Network
       icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/tailscale-light.png
